@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- responsive web -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="./public/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+    <script>window.MSInputMethodContext && document.documentMode && document.write('<script src="https://cdn.jsdelivr.net/gh/nuxodin/ie11CustomProperties@4.1.0/ie11CustomProperties.min.js"><\/script>');</script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- front -->
+    <!-- 제목 -->
+    <p id="sub">신영증권</p>
+    <p id="sub2">챗봇</p> 
+    <div class="rec"></div>
+
+    <p id="dec">신영증권&nbsp;<span class="clr"> 신입사원들의 궁금증</span>을 해결해 줄 챗봇서비스 "신영 Smart 챗봇"</p>
+    <p id="dec2">무엇이든지 물어보신영 #챗봇 #신영증권</p>
+
+    <!-- dialogflow -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="신영 Smart 챗봇"
+        agent-id="7dd22936-1440-4eef-be60-3ee33e6b69c6"
+        language-code="ko"
+        chat-icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSatuwQnVGZJrqKaKc34bJjySyI-QQW-udsCA&usqp=CAU"
+    ></df-messenger>
+    <script>
+        cssVars({
+            // Include only CSS from <style> elements and qp2.css
+            include: 'link[rel="stylesheet"][href*=style.css]'
+        });
+    </script>
+</body>
+</html>

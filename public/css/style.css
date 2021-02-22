@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+df-messenger {
+    --df-messenger-bot-message: #3cb12f;
+    --df-messenger-button-titlebar-font-color: black;
+    --df-messenger-button-titlebar-color: #ffffff;
+    --df-messenger-chat-background-color: #fafafa;
+    --df-messenger-font-color: white;
+    --df-messenger-send-icon: #878fac;
+    --df-messenger-user-message: rgb(42, 94, 42);
+}
+
+
+#sub {
+    /* 신영증권 */
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 70px;
+    top: 30px;
+
+    font-family: 'GmarketSansBold';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 150px;
+    /* or 156% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #000000;
+
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#sub2 {
+/* 챗봇 */
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 70px;
+    top: 158px;
+
+    font-family: 'GmarketSansBold';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 150px;
+    /* or 156% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #000000;
+
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.rec {
+    /* Rectangle 1 */
+
+    position: absolute;
+    width: 150px;
+    height: 4px;
+    left: 273px;
+    top: 325px;
+
+    background: #000000;
+}
+
+#dec {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 70px;
+    top: 400px;
+
+    font-family: 'GmarketSansMedium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.05em;
+
+    color: #000000;
+
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+span.clr {
+    color:#3cb12f;
+}
+
+#dec2 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 70px;
+    top: 450px;
+
+    font-family: 'GmarketSansMedium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.05em;
+
+    color: #000000;
+
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

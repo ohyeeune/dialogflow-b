@@ -24,7 +24,37 @@ df-messenger {
     --df-messenger-user-message: grey;
 }
 
+a {
+    text-decoration: none;
+}
 
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.slide-right {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 400px;
+    max-width: 500px
+ }
+ .slide-right h2 {
+    animation: 2s slide-right;
+    /*animation-delay: 2s;*/
+ }
+ @keyframes slide-right {
+     from {
+        margin-left: -500px;
+     }
+     to {
+        margin-left: 0%;
+     }
+  }
+  
 #sub {
     /* 신영증권 */
 
@@ -53,6 +83,25 @@ df-messenger {
     -webkit-user-select: none;
     user-select: none;
 }
+
+.slide-right-2 {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 400px;
+    max-width: 500px
+ }
+ .slide-right-2 h2 {
+    animation: 3s slide-right;
+    /*animation-delay: 2s;*/
+ }
+ @keyframes slide-right {
+     from {
+        margin-left: -500px;
+     }
+     to {
+        margin-left: 0%;
+     }
+  }
 
 #sub2 {
 /* 챗봇 */
@@ -118,10 +167,6 @@ df-messenger {
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-}
-
-span.clr {
-    color:#3cb12f;
 }
 
 #dec2 {

@@ -84,6 +84,12 @@ a:active {
     user-select: none;
 }
 
+@media (max-width: 420px) {
+    #sub{
+        font-size: 40px;
+    }
+}
+
 .slide-right-2 {
     width: 100%;
     overflow: hidden;
@@ -132,6 +138,13 @@ a:active {
     user-select: none;
 }
 
+@media (max-width: 420px) {
+    #sub2{
+        font-size: 40px;
+        top: 90px;
+    }
+}
+
 .rec {
     /* Rectangle 1 */
 
@@ -139,9 +152,17 @@ a:active {
     width: 150px;
     height: 4px;
     left: 273px;
-    top: 325px;
+    top: 304px;
 
     background: #000000;
+}
+
+@media (max-width: 420px) {
+    .rec{
+        width: 65px;
+        left: 150px;
+        top: 193px;
+    }
 }
 
 #dec {
@@ -169,6 +190,17 @@ a:active {
     user-select: none;
 }
 
+
+@media (max-width: 420px) {
+    #dec{
+        left: 50px;
+        top: 300px;
+        font-size: 13px;
+        letter-spacing: normal;
+    }
+}
+
+
 #dec2 {
     position: absolute;
     width: auto;
@@ -192,4 +224,13 @@ a:active {
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+}
+
+@media (max-width: 420px) {
+    #dec2{
+        left: 50px;
+        top: 400px;
+        font-size: 13px;
+        letter-spacing: normal;
+    }
 }

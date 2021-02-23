@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'GmarketSansBold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
@@ -15,12 +16,12 @@
 
 df-messenger {
     --df-messenger-bot-message: #3cb12f;
-    --df-messenger-button-titlebar-font-color: black;
-    --df-messenger-button-titlebar-color: #ffffff;
+    --df-messenger-button-titlebar-font-color: white;
+    --df-messenger-button-titlebar-color:#3cb12f /*rgb(42, 94, 42)*/;
     --df-messenger-chat-background-color: #fafafa;
     --df-messenger-font-color: white;
-    --df-messenger-send-icon: #878fac;
-    --df-messenger-user-message: rgb(42, 94, 42);
+    --df-messenger-send-icon: #3cb12f;
+    --df-messenger-user-message: grey;
 }
 
 
